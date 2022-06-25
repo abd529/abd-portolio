@@ -166,7 +166,9 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none; }
+  border-style: solid;
+border-color: white;
+   }
 
 svg {
   overflow: hidden;
