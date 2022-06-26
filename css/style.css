@@ -8515,8 +8515,10 @@ h1, h2, h3, h4, h5,
                 padding-left: 45px;
                 padding-right: 3em; } }
         .owl-carousel.home-slider .slider-item .slider-text .subheading {
+          text-align: center;
           color: #000000;
           font-weight: 600;
+          text-align: center;
           font-size: 14px;
           letter-spacing: 3px;
           text-transform: uppercase;
@@ -9182,9 +9184,11 @@ textarea.form-control {
 .heading-section {
   position: relative; }
   .heading-section .subheading {
+    text-align: center;
     font-size: 13px;
     font-weight: 500;
     display: block;
+    text-align: center;
     margin-bottom: 5px;
     text-transform: uppercase;
     color: black;
@@ -9208,6 +9212,7 @@ textarea.form-control {
       .heading-section h2 {
         font-size: 38px; } }
   .heading-section.heading-section-white .subheading {
+    text-align: center;
     color: rgba(255, 255, 255, 0.9) !important; }
   .heading-section.heading-section-white h2 {
     color: #fff; }
@@ -9425,7 +9430,8 @@ textarea.form-control {
   @media (max-width: 767.98px) {
     .contact-section .contact-form .btn-primary {
       display: block;
-      width: 100%; } }
+      width: 100%; 
+      } }
 
 .block-9 .form-control {
   outline: none !important;
